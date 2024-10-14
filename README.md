@@ -5,12 +5,14 @@
 
 - ✈️ I am a graduate of the National Institute of Civil Aviation and Aeronautical Technicians (INAC-CIATA).
 
-- 👨‍💻 All of my projects are available at [https://github.com/GuidoLinares](https://github.com/GuidoLinares)
-
 - 📫 How to reach me **guidolinaress@gmail.com**
 
 - 📄 Know about my experiences [https://www.linkedin.com/in/guido-linares-25859b209/](https://www.linkedin.com/in/guido-linares-25859b209/)
 
+- 👨‍💻 Projects in C :  The Game of Life in C: [https://github.com/hozlucas28/C-Practical-Work-2024]
+  
+- 👨‍💻 Projects in HTML,CSS,Javascript: [https://github.com/GuidoLinares/Proyects-HTML-CSS-JS]
+                 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/guido-linares-25859b209" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="guido linares" height="30" width="40" /></a>
