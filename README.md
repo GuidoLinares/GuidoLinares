@@ -1,6 +1,10 @@
 <h1 align="center">Hi 👋, I'm Guido Linares</h1>
 <h3 align="center">a software developer from Argentina, Buenos Aires</h3>
 
+- 📚 I am currently studying second and third-year courses at the National University of La Matanza.
+
+- ✈️ I am a graduate of the National Institute of Civil Aviation and Aeronautical Technicians (INAC-CIATA).
+
 - 👨‍💻 All of my projects are available at [https://github.com/GuidoLinares](https://github.com/GuidoLinares)
 
 - 📫 How to reach me **guidolinaress@gmail.com**
