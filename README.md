@@ -2,6 +2,7 @@
 
 
  **About me**
+ 
 💻 Hi, I'm Guido, a Computer Science student at the National University of La Matanza. I'm currently taking 2nd and 3rd-year courses and passionate about programming. I enjoy working with languages like C, Python, HTML, CSS, and JavaScript.
 
 **Technical Skills**
