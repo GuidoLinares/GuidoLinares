@@ -11,7 +11,8 @@
 
 - 👨‍💻 Projects in C :
          **The Game of Life in C** [https://github.com/hozlucas28/C-Practical-Work-2024].
-         **Project on lossless image manipulation** [https://github.com/GuidoLinares/Project-on-lossless-image-manipulation].
+  
+  **Project on lossless image manipulation** [https://github.com/GuidoLinares/Project-on-lossless-image-manipulation].
   
 - 👨‍💻 Projects in HTML,CSS,Javascript: [https://github.com/GuidoLinares/Proyects-HTML-CSS-JS]
                  
