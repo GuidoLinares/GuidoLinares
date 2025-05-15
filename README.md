@@ -11,10 +11,12 @@
 
 - 👨‍💻 Projects in C :
   
-     -**The Game of Life in C** [https://github.com/hozlucas28/C-Practical-Work-2024].
-  
+    -**Minesweeper in C** [https://github.com/GuidoLinares/C-Buscaminas-Topicos2025].
+    
+    -**The Game of Life in C** [https://github.com/hozlucas28/C-Practical-Work-2024].
+    
      -**Project on lossless image manipulation** [https://github.com/GuidoLinares/Project-on-lossless-image-manipulation].
-  
+    
 - 👨‍💻 Projects in HTML,CSS,Javascript: [https://github.com/GuidoLinares/Proyects-HTML-CSS-JS]
                  
 <h3 align="left">Connect with me:</h3>
