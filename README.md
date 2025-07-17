@@ -11,7 +11,7 @@
 
 - 👨‍💻 Projects in C :
   
-    -**Minesweeper in C ** [https://github.com/GuidoLinares/C-Buscaminas-Topicos2025].
+    -**Minesweeper in C** [https://github.com/GuidoLinares/C-Buscaminas-Topicos2025].
     
     -**The Game of Life in C** [https://github.com/hozlucas28/C-Practical-Work-2024].
     
