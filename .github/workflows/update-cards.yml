@@ -2,8 +2,8 @@ name: Update README cards
 
 on:
   schedule:
-    - cron: "0 6 * * *" # 03:00 Argentina (UTC-3)
-  workflow_dispatch: # permite correrlo a mano desde la pestaña Actions
+    - cron: "0 6 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
@@ -14,16 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      # Nota: se usa GITHUB_TOKEN (efímero, limitado a este repo) en lugar de un PAT.
-      # Las cards muestran actividad pública. Las contribuciones privadas ya quedan
-      # reflejadas en el calendario del perfil y en la card de racha, gracias a la
-      # opción "Private contributions" activada en el perfil.
-
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&rank_icon=percentile&theme=tokyonight&hide_border=true&hide=issues&disable_animations=true
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide_rank=true&theme=tokyonight&hide_border=true&hide=issues,contribs&disable_animations=true
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -31,10 +26,9 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&size_weight=0.5&count_weight=0.5&theme=tokyonight&hide_border=true&disable_animations=true
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&hide=m4,objective-c,cmake,makefile&theme=tokyonight&hide_border=true&disable_animations=true
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-
 
       - name: Commit cards
         run: |
