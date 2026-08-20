@@ -1,0 +1,45 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # 03:00 Argentina (UTC-3)
+  workflow_dispatch: # permite correrlo a mano desde la pestaña Actions
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      # Nota: se usa GITHUB_TOKEN (efímero, limitado a este repo) en lugar de un PAT.
+      # Las cards muestran actividad pública. Las contribuciones privadas ya quedan
+      # reflejadas en el calendario del perfil y en la card de racha, gracias a la
+      # opción "Private contributions" activada en el perfil.
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&rank_icon=percentile&theme=tokyonight&hide_border=true&hide=issues&disable_animations=true
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&size_weight=0.5&count_weight=0.5&theme=tokyonight&hide_border=true&disable_animations=true
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "chore: update readme cards" || exit 0
+          git push
