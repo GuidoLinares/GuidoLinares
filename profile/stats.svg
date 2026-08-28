@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Guidolinares&#39; GitHub Stats, Rank: C</title>
-        <desc id="descId">Total Stars Earned: 3, Total Commits  : 220, Total PRs: 21</desc>
+        <desc id="descId">Total Stars Earned: 3, Total Commits  : 222, Total PRs: 22</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 222.8872140535091;
+        stroke-dashoffset: 222.19085183823645;
       }
     }
   
@@ -166,7 +166,7 @@
         x="174.01"
         y="12.5"
         data-testid="commits"
-      >220</text>
+      >222</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -181,7 +181,7 @@
         x="174.01"
         y="12.5"
         data-testid="prs"
-      >21</text>
+      >22</text>
     </g>
   </g>
     </svg>
